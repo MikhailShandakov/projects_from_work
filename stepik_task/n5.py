@@ -1,0 +1,11 @@
+import time
+print("What is you name?")
+name=input()
+print("How old are you?")
+age=input()
+print("Where are you live?")
+location=input()
+time.sleep(1)
+print("This is", name)
+print("It is", age, "age")
+print("He live in", location)

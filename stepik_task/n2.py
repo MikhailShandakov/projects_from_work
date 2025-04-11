@@ -1,0 +1,6 @@
+print("Как тебя зовут?")
+name=input()
+print("Привет", name,)
+print("Как твои дела?", name)
+input()
+print("Ладно мне пора, еще увидимся", name)

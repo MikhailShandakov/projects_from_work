@@ -1,0 +1,12 @@
+a=int(input())
+b, c, d, e, f, g, h, k=a*2, a*3, a*4, a*5, a*6, a*7, a*8, a*9
+q, w, e, r, t, y, u, i, o=str(a), str(b), str(c), str(d), str(e), str(f), str(g), str(h), str(k)
+print(q+"*1="+q)
+print(q+"*2="+w)
+print(q+"*3="+e)
+print(q+"*4="+r)
+print(q+"*5="+t)
+print(q+"*6="+y)
+print(q+"*7="+u)
+print(q+"*8="+i)
+print(q+"*9="+o)
