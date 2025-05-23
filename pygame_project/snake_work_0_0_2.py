@@ -45,8 +45,8 @@ def gameLoop():
     lenght_snake = 1
     trek = []
     
-    foodx = round(random.randrange(0, (width - snake_block) / 10) * 10)
-    foody = round(random.randrange(0, (height - snake_block) / 10) * 10)
+    foodx = round(random.randrange(0, int((width - snake_block) / 10) * 10))
+    foody = round(random.randrange(0, int((height - snake_block) / 10) * 10))
     
     
     start_menu = True  # Стартовое меню
@@ -120,8 +120,8 @@ def gameLoop():
         if ((foodx <= x1 <= foodx + snake_block and foody <= y1 <= foody + snake_block) or
             (foodx <= x1 + snake_block <= foodx + snake_block and foody <= y1 + snake_block <= foody + snake_block)):
             
-            foodx = round(random.randrange(0, (width - snake_block) / 10) * 10)
-            foody = round(random.randrange(0, (height - snake_block) / 10) * 10)
+            foodx = round(random.randrange(0, int((width - snake_block) / 10) * 10))
+            foody = round(random.randrange(0, int((height - snake_block) / 10) * 10))
             
             lenght_snake += 1
         
